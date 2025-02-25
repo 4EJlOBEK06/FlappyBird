@@ -13,57 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Файлы заголовков\Game_elements">
-      <UniqueIdentifier>{d05e6b7a-f342-414e-ab4a-b5a974b8dce4}</UniqueIdentifier>
+    <Filter Include="Файлы заголовков\FunctionClasses">
+      <UniqueIdentifier>{30bf66a4-b13c-4d56-b5c4-8031a7632914}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Levels_game">
-      <UniqueIdentifier>{8a1da3fb-b6cc-4c17-a305-ba6b54b90e95}</UniqueIdentifier>
+    <Filter Include="Файлы заголовков\GameElements">
+      <UniqueIdentifier>{ce3a7747-938a-4da7-8f7e-85ca5090d69c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Файлы заголовков\Function_classes">
-      <UniqueIdentifier>{3a8a59e1-72c0-44f9-87ec-966d322892fd}</UniqueIdentifier>
+    <Filter Include="Файлы заголовков\GameLevels">
+      <UniqueIdentifier>{5f7e35da-d624-4660-8905-5970c049b19c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FlappyBird.cpp">
+    <ClCompile Include="code\Main\FlappyBird.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Assets.h">
-      <Filter>Файлы заголовков\Game_elements</Filter>
+    <ClInclude Include="code\FunctionClasses\Reading_writing_file.h">
+      <Filter>Файлы заголовков\FunctionClasses</Filter>
     </ClInclude>
-    <ClInclude Include="Game_over.h">
-      <Filter>Файлы заголовков\Game_elements</Filter>
+    <ClInclude Include="code\GameElements\Assets.h">
+      <Filter>Файлы заголовков\GameElements</Filter>
     </ClInclude>
-    <ClInclude Include="Message_get_ready.h">
-      <Filter>Файлы заголовков\Game_elements</Filter>
+    <ClInclude Include="code\GameElements\Game_over.h">
+      <Filter>Файлы заголовков\GameElements</Filter>
     </ClInclude>
-    <ClInclude Include="Pipes.h">
-      <Filter>Файлы заголовков\Game_elements</Filter>
+    <ClInclude Include="code\GameElements\Message_get_ready.h">
+      <Filter>Файлы заголовков\GameElements</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Файлы заголовков\Game_elements</Filter>
+    <ClInclude Include="code\GameElements\Pipes.h">
+      <Filter>Файлы заголовков\GameElements</Filter>
     </ClInclude>
-    <ClInclude Include="Surface.h">
-      <Filter>Файлы заголовков\Game_elements</Filter>
+    <ClInclude Include="code\GameElements\Player.h">
+      <Filter>Файлы заголовков\GameElements</Filter>
     </ClInclude>
-    <ClInclude Include="Level_game.h">
-      <Filter>Файлы заголовков\Levels_game</Filter>
+    <ClInclude Include="code\GameElements\Sound_Assets.h">
+      <Filter>Файлы заголовков\GameElements</Filter>
     </ClInclude>
-    <ClInclude Include="Menu.h">
-      <Filter>Файлы заголовков\Levels_game</Filter>
+    <ClInclude Include="code\GameElements\Surface.h">
+      <Filter>Файлы заголовков\GameElements</Filter>
     </ClInclude>
-    <ClInclude Include="Reading_writing_file.h">
-      <Filter>Файлы заголовков\Function_classes</Filter>
+    <ClInclude Include="code\GameLevels\Level_game.h">
+      <Filter>Файлы заголовков\GameLevels</Filter>
     </ClInclude>
-    <ClInclude Include="Scores.h">
-      <Filter>Файлы заголовков\Levels_game</Filter>
+    <ClInclude Include="code\GameLevels\Menu.h">
+      <Filter>Файлы заголовков\GameLevels</Filter>
     </ClInclude>
-    <ClInclude Include="Sound_Assets.h">
-      <Filter>Файлы заголовков\Game_elements</Filter>
+    <ClInclude Include="code\GameLevels\Scores.h">
+      <Filter>Файлы заголовков\GameLevels</Filter>
     </ClInclude>
-    <ClInclude Include="Settings.h">
-      <Filter>Файлы заголовков\Levels_game</Filter>
+    <ClInclude Include="code\GameLevels\Settings.h">
+      <Filter>Файлы заголовков\GameLevels</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,11 +1,11 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
-#include "Assets.h"
-#include "Sound_Assets.h"
-#include "Player.h"
-#include "Pipes.h"
-#include "Surface.h"
+#include "GameElements/Assets.h"
+#include "GameElements/Sound_Assets.h"
+#include "GameElements/Player.h"
+#include "GameElements/Pipes.h"
+#include "GameElements/Surface.h"
 
 class Menu {
 

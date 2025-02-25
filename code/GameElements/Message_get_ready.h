@@ -1,6 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "Assets.h"
+#include "GameElements/Assets.h"
 
 
 class Message_get_ready {

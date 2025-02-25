@@ -2,8 +2,8 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 #include <string>
-#include "Assets.h"
-#include "Sound_Assets.h"
+#include "GameElements/Assets.h"
+#include "GameElements/Sound_Assets.h"
 
 
 class Settings {

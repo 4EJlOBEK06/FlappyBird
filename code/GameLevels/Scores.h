@@ -3,9 +3,9 @@
 #include <SFML/Audio.hpp>
 #include <string>
 #include <vector>
-#include "Assets.h"
-#include "Sound_Assets.h"
-#include "Reading_writing_file.h"
+#include "GameElements/Assets.h"
+#include "GameElements/Sound_Assets.h"
+#include "FunctionClasses/Reading_writing_file.h"
 
 class Scores {
 

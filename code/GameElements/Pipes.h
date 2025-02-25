@@ -2,7 +2,7 @@
 #include <SFML/Graphics.hpp>
 #include <time.h>
 #include <cstdlib>
-#include "Assets.h"
+#include "GameElements/Assets.h"
 
 const unsigned int COUNT = 4;
 

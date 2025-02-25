@@ -53,7 +53,7 @@ Assets::Assets() {
     tx_message_flappybird.loadFromFile("sprites/message-flappybird.png");
     
     tx_pipe.loadFromFile("sprites/pipe-green.png");
-    tx_surface.loadFromFile("sprites_fhd/base.png");
+    tx_surface.loadFromFile("sprites/base.png");
 
     tx_button_start.loadFromFile("sprites/button-start-game.png");
     tx_button_score.loadFromFile("sprites/button-score.png");
@@ -77,5 +77,5 @@ Assets::Assets() {
 
     tx_button_ok.loadFromFile("sprites/button-ok.png");
 
-    font_numbers.loadFromFile("Font_FlappyBird.otf");
+    font_numbers.loadFromFile("Font/Font_FlappyBird.otf");
 }

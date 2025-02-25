@@ -1,6 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "Assets.h"
+#include "GameElements/Assets.h"
 
 class Surface {
 	sf::Vector2u window_size;

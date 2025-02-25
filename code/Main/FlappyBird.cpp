@@ -1,11 +1,11 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
-#include "Assets.h"
-#include "Sound_Assets.h"
-#include "Menu.h"
-#include "Level_game.h"
-#include "Scores.h"
-#include "Settings.h"
+#include "GameElements/Assets.h"
+#include "GameElements/Sound_Assets.h"
+#include "GameLevels/Menu.h"
+#include "GameLevels/Level_game.h"
+#include "GameLevels/Scores.h"
+#include "GameLevels/Settings.h"
 
 
 int main()

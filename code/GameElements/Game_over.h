@@ -1,8 +1,8 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <string>
-#include "Assets.h"
-#include "Reading_writing_file.h"
+#include "GameElements/Assets.h"
+#include "FunctionClasses/Reading_writing_file.h"
 
 class Game_over {
 

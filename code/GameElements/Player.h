@@ -1,6 +1,6 @@
 #pragma once
 #include <SFML/Graphics.hpp>
-#include "Assets.h"
+#include "GameElements/Assets.h"
 
 class Player {
 	sf::Texture tx_bird_down;
